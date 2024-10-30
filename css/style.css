@@ -1,0 +1,43 @@
+/* Copied from wp-admin/css/wp-admin.css */
+
+div.inaccessibility-notice,
+div.inaccessibility-error {
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border-width: 1px;
+	border-style: solid;
+}
+
+div.inaccessibility-notice,
+div.inaccessibility-error {
+	padding: 0 0.6em;
+	margin: 5px 15px 2px;
+}
+
+div.inaccessibility-notice p,
+div.inaccessibility-error p {
+	margin: 0.5em 0;
+	padding: 2px;
+}
+
+
+
+/* Copied from wp-admin/css/colors-fresh.css */
+
+div.inaccessibility-error {
+	background-color: #ffebe8;
+	border-color: #c00;
+}
+
+div.inaccessibility-notice {
+	background-color: #ffffe0;
+	border-color: #e6db55;
+}
+
+
+
+div.inaccessibility-badimg img {
+	border-width: 5px;
+	border-style: solid;
+	border-color: #c00;
+}
